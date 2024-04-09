@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2DS_Catarine_Samuel\\DS\\RpgApi\\RpgApi.csproj": {}
+    "C:\\Users\\peddr\\OneDrive\\Área de Trabalho\\RpgApi\\RpgApi\\RpgApi.csproj": {}
   },
   "projects": {
-    "D:\\2DS_Catarine_Samuel\\DS\\RpgApi\\RpgApi.csproj": {
+    "C:\\Users\\peddr\\OneDrive\\Área de Trabalho\\RpgApi\\RpgApi\\RpgApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2DS_Catarine_Samuel\\DS\\RpgApi\\RpgApi.csproj",
+        "projectUniqueName": "C:\\Users\\peddr\\OneDrive\\Área de Trabalho\\RpgApi\\RpgApi\\RpgApi.csproj",
         "projectName": "RpgApi",
-        "projectPath": "D:\\2DS_Catarine_Samuel\\DS\\RpgApi\\RpgApi.csproj",
-        "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-        "outputPath": "D:\\2DS_Catarine_Samuel\\DS\\RpgApi\\obj\\",
+        "projectPath": "C:\\Users\\peddr\\OneDrive\\Área de Trabalho\\RpgApi\\RpgApi\\RpgApi.csproj",
+        "packagesPath": "C:\\Users\\peddr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\peddr\\OneDrive\\Área de Trabalho\\RpgApi\\RpgApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\peddr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -48,6 +46,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -73,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
